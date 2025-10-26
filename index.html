@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teja Lakshman Balina - Personal Portfolio</title>
+
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <main>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt=" Teja Lakshman Balina " width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Teja Lakshman Balina">Teja Lakshman Balina</h1>
+          <p class="title">Software Engineer / Web Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:balinateja13@gmail.com" class="contact-link">balinateja13@gmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+919059132979" class="contact-link">+91 9059132979</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="2003-08-06">August 6, 2003</time>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Rajahmundry, Andhra Pradesh, India</address>
+            </div>
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <div class="filter-select-box">
+          <div class="filter-select" data-select>
+            <span class="select-value" data-select-value>All</span>
+            <span class="select-icon"><ion-icon name="chevron-down-outline"></ion-icon></span>
+          </div>
+          <ul class="select-list">
+            <li class="select-item" data-select-item>All</li>
+            <li class="select-item" data-select-item>Web</li>
+            <li class="select-item" data-select-item>Mobile</li>
+            <li class="select-item" data-select-item>AI</li>
+          </ul>
+        </div>
+
+        <ul class="filter-list">
+          <li class="filter-item"><button class="filter-btn active" data-filter-btn>All</button></li>
+          <li class="filter-item"><button class="filter-btn" data-filter-btn>Web</button></li>
+          <li class="filter-item"><button class="filter-btn" data-filter-btn>Mobile</button></li>
+          <li class="filter-item"><button class="filter-btn" data-filter-btn>AI</button></li>
+        </ul>
+
+        <ul class="project-list">
+          <li class="project-item active" data-filter-item data-category="web">
+            <a href="https://github.com/BTL5010TEJA/sample-web-app" target="_blank" rel="noopener noreferrer">
+              <div class="project-img">
+                <img src="./assets/images/my-avatar.png" alt="Sample Web App">
+              </div>
+              <div class="project-title">Sample Web App</div>
+              <div class="project-category">Web</div>
+            </a>
+          </li>
+          <li class="project-item active" data-filter-item data-category="mobile">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <div class="project-img">
+                <img src="./assets/images/icon-app.svg" alt="Mobile App">
+              </div>
+              <div class="project-title">Mobile Demo</div>
+              <div class="project-category">Mobile</div>
+            </a>
+          </li>
+          <li class="project-item active" data-filter-item data-category="ai">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <div class="project-img">
+                <img src="./assets/images/icon-photo.svg" alt="AI Project">
+              </div>
+              <div class="project-title">AI Chatbot</div>
+              <div class="project-category">AI</div>
+            </a>
+          </li>
+        </ul>
+
+      </article>
+
+        <div class="separator"></div>
+
+        <!-- Theme toggle -->
+        <div class="theme-toggle-wrap">
+          <button class="theme-toggle-btn" data-theme-btn aria-pressed="false" title="Toggle theme">
+            <ion-icon name="moon-outline"></ion-icon>
+            <span class="visually-hidden">Toggle theme</span>
+          </button>
+        </div>
+
+      </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <div class="main-content">
+
+      <!-- NAVBAR -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Portfolio</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Blog</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Contact</button></li>
+        </ul>
+      </nav>
+
+      <!-- ABOUT -->
+      <article class="about active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About Me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a Computer Science undergraduate and aspiring Software Engineer from Andhra Pradesh, India,
+            passionate about web development, AI/ML, and scalable cloud-based systems.
+          </p>
+          <p>
+            I specialize in building high-performance, responsive web applications and intelligent systems.
+            My goal is to deliver efficient and visually appealing solutions that combine design and technology.
+            I have developed several full-stack projects using React, PHP, and Python, with a focus on usability,
+            optimization, and modern design principles.
+          </p>
+        </section>
+
+        <!-- SERVICES -->
+        <section class="service">
+          <h3 class="h3 service-title">What I'm Doing</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box"><img src="./assets/images/icon-design.svg" alt="design icon" width="40"></div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Design</h4>
+                <p class="service-item-text">Creating modern, responsive, and intuitive web interfaces.</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box"><img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40"></div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Development</h4>
+                <p class="service-item-text">Building secure and scalable full-stack applications.</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box"><img src="./assets/images/icon-app.svg" alt="AI icon" width="40"></div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI/ML Solutions</h4>
+                <p class="service-item-text">Developing intelligent automation systems and chatbots using Python and APIs.</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box"><img src="./assets/images/icon-photo.svg" alt="cloud icon" width="40"></div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Cloud Automation</h4>
+                <p class="service-item-text">Optimizing workflows using Docker, Airflow, and cloud-based pipelines.</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+      </article>
+
+      <!-- RESUME -->
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">B.Tech in CSE, GITAM University, Bangalore</h4>
+              <span>Aug 2022 — May 2026</span>
+              <p class="timeline-text">CGPA: 8.27</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Intermediate (XII), Sri Chaitanya Junior College</h4>
+              <span>2020 — 2022</span>
+              <p class="timeline-text">Percentage: 71%</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">SSC (X), Sri Chaitanya School</h4>
+              <span>2019 — 2020</span>
+              <p class="timeline-text">Percentage: 98.8%</p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box"><ion-icon name="briefcase-outline"></ion-icon></div>
+            <h3 class="h3">Experience</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Web Development Intern – Teachnook (Remote)</h4>
+              <span>May 2024 — Jul 2024</span>
+              <p class="timeline-text">Built 12+ responsive pages, reducing load time by 35% and improving design consistency by 25%.</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">AI Intern – Plasmaid (Remote)</h4>
+              <span>Feb 2024 — Apr 2024</span>
+              <p class="timeline-text">Enhanced ML model accuracy by 18% via feature engineering and automated preprocessing workflows.</p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="skill">
+          <h3 class="h3 skills-title">My Skills</h3>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper"><h5 class="h5">Web Design</h5><data value="85">85%</data></div>
+              <div class="skill-progress-bg"><div class="skill-progress-fill"></div></div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper"><h5 class="h5">Web Development</h5><data value="90">90%</data></div>
+              <div class="skill-progress-bg"><div class="skill-progress-fill"></div></div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper"><h5 class="h5">AI/ML</h5><data value="75">75%</data></div>
+              <div class="skill-progress-bg"><div class="skill-progress-fill"></div></div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper"><h5 class="h5">Cloud Automation</h5><data value="70">70%</data></div>
+              <div class="skill-progress-bg"><div class="skill-progress-fill"></div></div>
+            </li>
+          </ul>
+        </section>
+
+      </article>
+
+      <!-- CONTACT -->
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe title="Map of Rajahmundry" src="https://www.google.com/maps?q=Rajahmundry,+Andhra+Pradesh,+India&output=embed" width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+          <!-- Set data-form-endpoint to your Formspree or backend endpoint and data-admin-email to receive fallback mailto -->
+          <form action="#" class="form" data-form data-form-endpoint="https://formspree.io/f/your-form-id" data-admin-email="balinateja13@gmail.com">
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+
+      </article>
+
+    </div>
+  </main>
+
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
+
