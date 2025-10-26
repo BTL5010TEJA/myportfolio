@@ -1,19 +1,3 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-
-/**
- * copyright 2022 @codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
 
 :root {
 
@@ -1997,4 +1981,5 @@ html.light-theme .blog-text {
 }
 .form-status.visible { opacity: 1; transform: translateY(0); }
 .form-status.success { border: 1px solid rgba(0,200,100,0.12); }
+
 .form-status.error { border: 1px solid rgba(200,0,0,0.12); }
